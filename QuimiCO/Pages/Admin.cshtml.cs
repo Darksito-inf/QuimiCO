@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace QuimiCO.Pages
 {
-    public class MarcajeModel : PageModel
+    public class AdminModel : PageModel
     {
         public void OnGet()
         {
