@@ -2,3 +2,17 @@
 @model QuimiCO.Pages.MarcajeModel
 @{
 }
+<div class="w-80 mx-auto mt-6 p-4 border text-center">
+    <h3 class="font-bold mb-4">Control de Asistencia</h3>
+
+    <form method="post" class="flex gap-4">
+        <!-- boton entrada -->
+        <button type="submit" asp-page-handler="Entrada" class="flex-1 bg-green-600 text-white py-2 rounded">
+            Entrada
+        </button>
+        <!-- boton salida -->
+        <button type="submit" asp-page-handler="Salida" class="flex-1 bg-red-600 text-white py-2 rounded">
+            Salida
+        </button>
+    </form>
+</div>
